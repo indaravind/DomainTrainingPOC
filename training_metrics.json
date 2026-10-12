@@ -1,0 +1,26 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "before": {
+    "eval_loss": 2.0046944618225098,
+    "eval_model_preparation_time": 0.015,
+    "eval_runtime": 82.7675,
+    "eval_samples_per_second": 0.085,
+    "eval_steps_per_second": 0.085
+  },
+  "after": {
+    "eval_loss": 2.0037434101104736,
+    "eval_model_preparation_time": 0.015,
+    "eval_runtime": 72.5231,
+    "eval_samples_per_second": 0.097,
+    "eval_steps_per_second": 0.097,
+    "epoch": 1.0
+  },
+  "training": {
+    "train_runtime": 21638.6472,
+    "train_samples_per_second": 0.001,
+    "train_steps_per_second": 0.0,
+    "total_flos": 21197956847616.0,
+    "train_loss": 2.006795184952872,
+    "epoch": 1.0
+  }
+}
